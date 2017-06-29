@@ -1,18 +1,35 @@
 # Solarized Light & Dark Theme for Xcode
-#### - Enjoy the world's most-popular theme for programming on Xcode
-![Solarized Light][1]
-![Solarized Dark][2]
+
+## Background
+This theme works with Xcode 8 and 9.
+
+This theme used to work with Xcode 5, 6, and 7, but due to the changes to the theme editor, this theme is no longer compatible.
 
 ## Installation
-> *Tested working on Xcode 5+*
 
-1. Copy the two .dvtcolortheme files into `~/Library/Developer/Xcode/UserData/FontAndColorThemes`. You may have to create the directory if there isn't an existed one.
-2. Restart your Xcode if it is running.
-3. Select Solarized Light/Dark theme in your Xcode 'Preferences - Fonts & Colors (Tab)'.
+### Automatic (via script)
+```
+./install.sh
+```
 
-## See also
-[The Official Homepage for Solarized Theme][3]
+which will install the file in Xcode `FontAndColorThemes` directory.
 
-[1]: http://i.imgur.com/dv5H0yA.png
-[2]: http://i.imgur.com/BUJcHU9.png
-[3]: http://ethanschoonover.com/solarized
+- Restart Xcode
+- Go to preferences and select **Solarized Dark**
+
+### Manual Installation
+Copy the .xccolortheme file into the following directory:
+
+```
+~/Library/Developer/Xcode/UserData/FontAndColorThemes
+```
+
+- Restart Xcode
+- Go to preferences and select **Solarized Dark**
+### Screenshot
+Solarized Dark Screen
+![Solarized Dark Screen Shot](solarizedDark.png "Solarized Dark Screenshot")
+Screenshot_Dark
+![Screenshot_Dark](Screenshot_Dark.png "Screenshot_Dark")
+Screenshot_Light
+![Screenshot_Light](Screenshot_Light.png "Screenshot_Light")
